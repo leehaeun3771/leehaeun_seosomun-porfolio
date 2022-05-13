@@ -1,0 +1,503 @@
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-last-child(1){
+    display: block;
+}
+div.hdrWrap>div.header{
+    line-height: 40px;
+    height: 40px
+}
+div.hdrWrap::before{
+    height: 40px;
+}
+div.hdrWrap>div.header>div.logo{
+    margin-top: 0px;
+}
+div.hdrWrap>div.header>ul.nav>li>i{
+    line-height: 40px;
+}
+
+/* 햄버거버튼 탑메뉴 */
+div.topBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 998;
+    margin-right: calc((100vw - 680px) / 2 + 15px);
+    margin-top: 45px;
+    height: 0;
+    overflow: hidden;
+  }
+  div.topBox>div.box{
+    width: 145px;
+    height: 250px;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  div.topBox>ul{
+    position: absolute;
+    margin-right: -50px;
+    text-align: right;
+    top: 0;
+    right: 75px;
+  }
+  div.topBox>ul>li{
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    z-index: 999;
+    margin-top: 18px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+
+/* 메인 */
+div.mainWrap{
+    height: 320px;
+    margin-top: -40px;
+}
+div.mainWrap>div.main{
+    height: 320px;
+}
+div.mainWrap>div.main>i{
+    padding-top: 220px;
+}
+
+div.mainWrap>div.main>div.videoBox{
+    height: 320px;
+}
+div.mainWrap>div.main>div.videoBox>video{
+    margin-top: -170px;
+    margin-left: -100px;
+}
+div.mainWrap>div.main:hover>div.pause{
+    display: none;
+}
+  
+div.mainWrap>div.main>div.play{
+    display: none;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content>div.section div.article>p{
+    font-size: 11px;
+    width: calc(100% / 8 * 4);
+    margin-top: 80px;
+}
+div.cntWrap>div.content>div.section div.thumbnail{
+    width: calc(100% - 20px);
+}
+
+div.cntWrap>div.content>div.section div.thumbnail>div.article>div.image{
+    height: 120px;
+}
+
+div.cntWrap>div.content>div.section div.btns{
+    margin-top: -60px;
+}
+div.cntWrap>div.content>div.section div.btns>i:nth-child(1){
+    margin-right: -10px;
+}
+div.cntWrap>div.content>div.section div.btns>i:nth-child(2){
+    margin-left: -10px;
+}
+
+
+/* 컨텐츠 */
+div.cntWrap{
+    margin-top: 60px;
+}
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content>div.header>h2::before{
+    width: 15px;
+    height: 15px;
+}
+div.cntWrap>div.content>div.header{
+    opacity: 1;
+}
+div.cntWrap>div.content>div.header>h2{
+    line-height: 40px;
+    font-size: 15px; 
+}
+div.cntWrap>div.content>div.header>h3{
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 40px;
+}
+div.cntWrap>div.content>div.header>p{
+    width: calc(100% / 8 * 6);
+    font-size: 11px;
+    line-height: 20px;
+    height: 120px;
+}
+div.cntWrap>div.content>div.section>div.artTop{
+    margin-top: 80px;
+    opacity: 1;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.article>div.image{
+    width: calc(100% / 8 * 4);
+    height: 240px;
+}
+
+div.cntWrap>div.content>div.section>div.artTop>ul.bar{
+    margin-right: calc(100% / 16);
+}
+div.cntWrap>div.content>div.section>div.artTop>ul.bar>li{
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artTop>ul.bar>li.on{
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artTop>ul.bar>li.on>div{
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section div.thumbView{
+    margin-top: 0px;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.image{
+    background-size: 70%;
+    /* background-position-y: 8px; */
+    background-color: #fff;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts{
+    margin-top: -40px;
+    line-height: 20px;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts>h4{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts.a1>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #e2b1d2;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts.a2>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #8893a8;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts.a3>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #9dada8;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts>p{
+    margin-left: 0px;
+    font-size: 11px;
+}
+div.cntWrap>div.content>div.section div.btns{
+    margin-top: -70px;
+}
+div.cntWrap>div.content>div.section div.btns>i:nth-child(1){
+    margin-left: 20px;
+}
+div.cntWrap>div.content>div.section div.btns>i:nth-child(2){
+    margin-right: 20px;
+}
+
+
+
+/* 컨텐츠 아트미드 */
+div.cntWrap>div.content>div.section>div.artMid{
+    margin-top: 80px;
+    opacity: 1;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.article>div.image{
+    height: 240px;
+    width: calc(100% / 8 * 4);
+}
+div.cntWrap>div.content>div.section>div.artMid>div.article>p{
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section>div.artMid>ul.bar{
+    margin-left: calc(100% / 16);
+}
+div.cntWrap>div.content>div.section>div.artMid>ul.bar>li{
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.bar>li.on2{
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artMid>ul.bar>li.on>div{
+    margin-top: 5px;
+}
+
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.image{
+    background-size: 70%;
+    /* background-position-y: 8px; */
+    background-color: #fff;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts{
+    margin-top: -35px;
+    line-height: 20px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>h4{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts.b1>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #49413e;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts.b2>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #b28379;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts.b3>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #7476af;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>p{
+    margin-left: 0px;
+    font-size: 11px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article.b5>div.texts>p{
+    width: 111%;
+    margin-left: -3px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article:nth-last-child(1)>div.texts>p{
+    padding: 3px 4px;
+}
+
+
+
+/* 아트 바텀 */
+div.cntWrap>div.content>div.section>div.artBtm{
+    margin-top: 80px;
+    opacity: 1;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.article>div.image{
+    width: calc(100% / 8 * 4);
+    height: 240px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.article>p{
+    padding: 0px 30px;
+    margin-top: 80px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>ul.bar{
+    margin-right: calc(100% / 16);
+}
+
+div.cntWrap>div.content>div.section>div.artBtm>ul.bar>li{
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.bar>li.on2{
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>ul.bar>li.on>div{
+    margin-top: 5px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.image{
+    /* background-position-y: 8px; */
+    background-size: 70%;
+    background-color: #fff;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts{
+    margin-top: -35px;
+    line-height: 20px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts>h4{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts.c1>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #9d797e;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts.c2>p::before{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #8b9a7d;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts>p{
+    margin-left: 0px;
+}
+
+
+
+/* 배너 */
+div.bnrWrap{
+    margin-top: 80px;
+    opacity: 1;
+}
+div.bnrWrap>div.banner{
+    width: 90%;
+    max-width: 700px;
+}
+div.bnrWrap>div.banner>div.texts{
+    width: calc(100% / 8 * 3 + 20px);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.bnrWrap>div.banner>div.texts>h3{
+    font-size: 12px;
+    line-height: 40px;
+}
+div.bnrWrap>div.banner>div.texts>p{
+    font-size: 11px;
+    line-height: 20px;
+    height: 80px;
+    overflow: hidden;
+}
+
+div.bnrWrap>div.banner>div.image{
+    width: calc(100% / 8 * 5 - 20px);
+    height: 200px;
+}
+
+
+/* 풋터 */
+div.ftrWrap{
+    opacity: 1;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+    margin-top: 80px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft{
+    width: calc(100% / 8 * 6);
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight{
+    width: calc(100% / 8 * 2);
+    float: right;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.nav>li:nth-child(1){
+    font-size: 11px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>ul.nav>li{
+    font-size: 10px;
+    line-height: 20px;
+}
+  
+div.ftrWrap>div.footer>div.ftrBtm>div.logo{
+    width: calc(100% / 8 * 2 - 20px);
+    line-height: 40px;
+    height: 20px;
+    margin-top: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight{
+    width: calc(100% / 8 * 6 - 20px);
+    margin: 0 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.locate{
+    width: calc(100% / 6 * 4 - 20px);
+    padding-left: 5px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.time{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.call{
+    width: calc(100% / 6 * 2 - 20px);
+    padding-left: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.locate>h5{
+    font-size: 11px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.locate>p{
+    font-size: 10px;
+    line-height: 13px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.time>h5{
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.time>p{
+    font-size: 10px;
+    line-height: 13px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.call>h5{
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.ftrRight>div.call>p{
+    font-size: 10px;
+    line-height: 13px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight>div.foundation>div.image.i1{
+    background-position: -3px 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight>div.foundation>div.image.i2{
+    background-position: -9px 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight>div.foundation>div.image.i3{
+    background-position: -11px 0px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.ftrRight>div.foundation>div.image.i4{
+    background-position: 3px 0px;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+div.topBtn{
+    display: none;
+}
