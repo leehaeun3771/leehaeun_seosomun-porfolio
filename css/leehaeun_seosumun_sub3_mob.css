@@ -45,6 +45,9 @@ div.mainWrap{
   height: 200px;
   margin-top: -40px;
 }
+div.mainWrap>div.main{
+    height: 200px;
+}
 div.mainWrap>div.main>i{
   padding-top: 130px;
   font-size: 20px;
@@ -78,7 +81,7 @@ div.cntWrap>div.content>div.header>h2::before{
 }
 div.cntWrap>div.content>div.header>h2{
     line-height: 35px;
-    font-size: 12px;
+    font-size: 13px;
 }
 div.cntWrap>div.content>div.section div.article>div.image{
     border-radius: 2px;
@@ -86,7 +89,7 @@ div.cntWrap>div.content>div.section div.article>div.image{
 div.cntWrap>div.content>div.section div.article>p{
     width: calc(100% / 4 * 2);
     margin-top: 26px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 13px;
     height: 52px;
     overflow: hidden;
@@ -127,16 +130,19 @@ div.cntWrap>div.content>div.section div.btns>i:nth-child(2){
 /* 컨텐츠 */
 
 div.cntWrap>div.content>div.header>h3{
-    font-size: 11px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 12px;
     line-height: 20px;
     margin-top: 20px;
 }
 div.cntWrap>div.content>div.header>p{
     width: calc(100% / 4 * 3);
-    font-size: 10px;
+    font-size: 11px;
     line-height: 15px;
     height: 30px;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 div.cntWrap>div.content>div.section>div.artTop{
@@ -239,7 +245,7 @@ div.cntWrap>div.content>div.section>div.artMid>div.article>div.image{
 div.cntWrap>div.content>div.section>div.artMid>div.article>p{
     width: calc(100% / 4 * 2);
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 13px;
     height: 52px;
     overflow: hidden;
@@ -309,7 +315,7 @@ div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.a
     margin-top: -23px;
 }
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>p{
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 10px;
 }
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>p::before{
@@ -328,7 +334,7 @@ div.cntWrap>div.content>div.section>div.artBtm>div.article>div.image{
 div.cntWrap>div.content>div.section>div.artBtm>div.article>p{
     width: calc(100% / 4 * 2);
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 13px;
     height: 52px;
     overflow: hidden;
@@ -393,7 +399,7 @@ div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.a
     margin-top: -23px;
 }
 div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts>p{
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 10px;
 }
 div.cntWrap>div.content>div.section>div.artBtm>div.thumbView>div.thumbnail>div.article>div.texts>p::before{

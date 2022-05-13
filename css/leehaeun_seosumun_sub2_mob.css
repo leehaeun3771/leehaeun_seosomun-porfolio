@@ -78,7 +78,7 @@ div.cntWrap>div.content>div.header>h2::before{
 
 div.cntWrap>div.content>div.header>h2{
   line-height: 35px;
-  font-size: 12px;
+  font-size: 13px;
 }
 div.cntWrap>div.content>div.section{
   margin-top: 0px;
@@ -91,13 +91,13 @@ div.cntWrap>div.content>div.section>div.article>div.texts{
   width: calc(100% - 10px);
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>div.leftTxt>h3{
-  font-size: 10px;
+  font-size: 12px;
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>div.leftTxt>div.bar{
   display: none;
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>div.leftTxt>p{
-  font-size: 10px;
+  font-size: 11px;
   line-height: 15px;
   height: 120px;
   overflow: hidden;
@@ -156,15 +156,15 @@ div.bnrWrap>div.banner>div.menu>div.image.i1{
   background-position: center;
 }
 div.bnrWrap>div.banner>div.menu>div.texts>h4{
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 25px;
 }
 div.bnrWrap>div.banner>div.menu>div.texts>div.btn{
-  line-height: 13px;
+  line-height: 25px;
 }
 div.bnrWrap>div.banner>div.menu>div.texts>div.btn>i{
-  font-size: 9px;
-  padding: 0px 0px;
+  font-size: 11px;
+  padding: 1px 1px;
 }
 
 /* 풋터 */

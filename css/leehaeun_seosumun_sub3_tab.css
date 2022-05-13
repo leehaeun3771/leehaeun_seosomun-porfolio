@@ -86,8 +86,9 @@ div.mainWrap>div.main>div.play{
 }
 
 /* 컨텐츠 공통 */
+
 div.cntWrap>div.content>div.section div.article>p{
-    font-size: 11px;
+    font-size: 12px;
     width: calc(100% / 8 * 4);
     margin-top: 80px;
 }
@@ -127,16 +128,16 @@ div.cntWrap>div.content>div.header{
 }
 div.cntWrap>div.content>div.header>h2{
     line-height: 40px;
-    font-size: 15px; 
+    font-size: 17px; 
 }
 div.cntWrap>div.content>div.header>h3{
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 40px;
 }
 div.cntWrap>div.content>div.header>p{
     width: calc(100% / 8 * 6);
-    font-size: 11px;
+    font-size: 12px;
     line-height: 20px;
     height: 120px;
 }
@@ -216,7 +217,7 @@ div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.a
 
 div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.texts>p{
     margin-left: 0px;
-    font-size: 11px;
+    font-size: 12px;
 }
 div.cntWrap>div.content>div.section div.btns{
     margin-top: -70px;
@@ -305,7 +306,7 @@ div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.a
 
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>p{
     margin-left: 0px;
-    font-size: 11px;
+    font-size: 12px;
 }
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article.b5>div.texts>p{
     width: 111%;
@@ -400,11 +401,11 @@ div.bnrWrap>div.banner>div.texts{
     padding-bottom: 40px;
 }
 div.bnrWrap>div.banner>div.texts>h3{
-    font-size: 12px;
+    font-size: 13px;
     line-height: 40px;
 }
 div.bnrWrap>div.banner>div.texts>p{
-    font-size: 11px;
+    font-size: 12px;
     line-height: 20px;
     height: 80px;
     overflow: hidden;

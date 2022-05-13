@@ -35,24 +35,24 @@ $(function(){
         $('div.section>div.bars>div.per').css('margin-left', i * 12.5 + '%');
     });
 
-
+    //모바일 swipe
     var mo = 0;
     $('div.artView>div.artGroup').swiperight(function(){
-        mo++;
-        if(mo > 7){
-            mo=7;
-        };
-        $('div.artView>div.artGroup').css('margin-left', mo * -25 + '%');
-        $('div.section>div.bars>div.per').css('margin-left', mo * 12.5 + '%');
-    });
-
-    $('div.artView>div.artGroup').swipeleft(function(){
         mo--;
         if(mo<0){
             mo=0;
         };
-        $('div.artView>div.artGroup').css('margin-left', mo * -25 + '%');
-        $('div.section>div.bars>div.per').css('margin-left', mo * 12.5 + '%');
+        $('div.artView>div.artGroup').css('margin-left', mo * -50 + '%');
+        $('div.section>div.bars>div.per').css('margin-left', mo * 22 + '%');
+    });
+
+    $('div.artView>div.artGroup').swipeleft(function(){
+        mo++;
+        if(mo > 4){
+            mo=4;
+        };
+        $('div.artView>div.artGroup').css('margin-left', mo * -50 + '%');
+        $('div.section>div.bars>div.per').css('margin-left', mo * 22 + '%');
     });
 
 

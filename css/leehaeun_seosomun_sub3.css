@@ -512,6 +512,14 @@ div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.a
   background-image: url('./images/sub3/top8예론.png');
 
 }
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.image.a9{
+  background-image: url('./images/sub3/맹자\ 맹자언해.png');
+
+}
+div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.image.a10{
+  background-image: url('./images/sub3/중용\ 중용언해.png');
+
+}
 div.cntWrap>div.content>div.section>div.artTop>div.thumbView>div.thumbnail>div.article>div.image.a11{
   background-image: url('./images/sub3/top11계곡만필.png');
 
@@ -719,6 +727,12 @@ div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.a
 }
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.image.b13{
   background-image: url('./images/sub3/mid13율곡집.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.image.b14{
+  background-image: url('./images/sub3/율정별여유당전서시문집제1권제4권.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.image.b15{
+  background-image: url('./images/sub3/mid6\ 직방외기.png');
 }
 div.cntWrap>div.content>div.section>div.artMid>div.thumbView>div.thumbnail>div.article>div.texts>h4{
   color: #fff;

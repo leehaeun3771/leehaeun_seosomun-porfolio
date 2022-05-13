@@ -63,6 +63,9 @@ div.mainWrap{
   height: 320px;
   margin-top: -40px;
 }
+div.mainWrap>div.main{
+  height: 320px;
+}
 div.mainWrap>div.main>i{
   padding-top: 220px;
 }
@@ -101,7 +104,7 @@ div.cntWrap>div.content>div.header>h2::before{
 }
 div.cntWrap>div.content>div.header>h2{
   line-height: 40px;
-  font-size: 15px;
+  font-size: 17px;
 }
 div.cntWrap>div.content>div.section{
   opacity: 1;
@@ -113,7 +116,7 @@ div.cntWrap>div.content>div.section>div.article>div.image{
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>div.leftTxt>h3{
   line-height: 40px;
-  font-size: 11px;
+  font-size: 12px;
 }
 div.cntWrap>div.content>div.section>div.article>div.texts>div.leftTxt>div.bar{
   height: 20px;
@@ -168,7 +171,7 @@ div.bnrWrap>div.banner>div.menu>div.image{
   opacity: 1;
 }
 div.bnrWrap>div.banner>div.menu>div.texts>h4{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
 }
 div.bnrWrap>div.banner>div.menu>div.texts>div.btn{

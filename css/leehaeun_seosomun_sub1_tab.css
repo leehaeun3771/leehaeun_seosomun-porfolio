@@ -101,7 +101,7 @@ div.cntWrap>div.content.cnt01>div.header{
 }
 div.cntWrap>div.content>div.header>h2{
   line-height: 40px;
-  font-size: 15px;
+  font-size: 17px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop{
   opacity: 1;
@@ -129,7 +129,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artTop:hover>div.article>div.texts
   opacity: 1;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h3{
-  font-size: 13px;
+  font-size: 15px;
   line-height: 40px;
   margin-top: 0px;
 }
@@ -141,14 +141,14 @@ div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.t
   opacity: 1;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.title{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.title>li:nth-last-child(1){
   margin-top: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.memo{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
 }
 
@@ -169,7 +169,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts{
 }
 
 div.cntWrap>div.content>div.section div.article>div.texts>h3{
-  font-size: 13px;
+  font-size: 15px;
   line-height: 40px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>h3{
@@ -179,11 +179,11 @@ div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.t
   opacity: 1;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.table>ul.title{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.table>ul.memo{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>h3::after{
@@ -217,8 +217,8 @@ div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.ta
   opacity: 1;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.tab>li{
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 25px;
   margin-top: 10px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.tab>li>span{
@@ -243,7 +243,7 @@ div.bnrWrap>div.banner>h2::before{
 }
 div.bnrWrap>div.banner>h2{
   line-height: 40px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* 배너1 */
@@ -252,7 +252,7 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons>div.icon>div.image{
   margin: 10px auto;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons>div.icon>div.texts>h3{
-  font-size: 11px;
+  font-size: 13px;
   line-height: 40px;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons>div.icon>div.texts>p{

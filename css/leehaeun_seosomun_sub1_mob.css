@@ -82,7 +82,7 @@ div.cntWrap>div.content>div.header>h2::before{
 
 div.cntWrap>div.content>div.header>h2{
   line-height: 35px;
-  font-size: 12px;
+  font-size: 13px;
 }
 div.cntWrap>div.content>div.section{
   margin-top: 0px;
@@ -105,7 +105,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts{
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  height: 70px;
+  height: 80px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h3{
   font-size: 12px;
@@ -123,12 +123,14 @@ div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.t
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.title{
   display: none;
 }
+
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.memo{
   width: 80%;
   margin-left: 0px;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 25px;
 }
+
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.table>ul.memo>li:nth-child(2)~li{
   display: none;
 }
@@ -144,7 +146,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts{
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  height: 70px;
+  height: 80px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.image{
   width: 100%;
@@ -171,8 +173,8 @@ div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.t
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.table>ul.memo{
   width: 100%;
   margin-left: 0px;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 25px;
   text-align: left;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artMid>div.article>div.texts>div.table>ul.memo>li{
@@ -217,8 +219,8 @@ div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.ta
   margin-top: 0px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.tab>li{
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 30px;
   margin-top: 0px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>ul.tab>li>i{
@@ -258,7 +260,7 @@ div.bnrWrap>div.banner>h2::before{
 }
 div.bnrWrap>div.banner>h2{
   line-height: 35px;
-  font-size: 12px;
+  font-size: 13px;
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons{
   margin-top: 0px;
@@ -267,7 +269,7 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons>div.icon{
   width: calc(100% / 3 - 20px);
 }
 div.bnrWrap.bnrWrap01>div.banner.bnr01>div.icons>div.icon>div.texts>h3{
-  font-size: 9px;
+  font-size: 12px;
   line-height: 20px;
 }
 
