@@ -55,8 +55,9 @@ div.mainWrap>div.main>div.videoBox{
   height: 200px;
 }
 div.mainWrap>div.main>div.videoBox>video{
-  margin-top: -47px;
-  margin-left: -50px;
+  width: 125%;
+  margin-top: -33px;
+  margin-left: -40px;
 }
 
 

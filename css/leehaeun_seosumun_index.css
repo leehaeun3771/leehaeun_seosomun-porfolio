@@ -158,8 +158,9 @@ div.mainWrap>div.main>div.videoBox{
 }
 div.mainWrap>div.main>div.videoBox>video{
   width: 120%;
+  margin: 0 auto;
   margin-top: -300px;
-  margin-left: -200px;
+
 }
 div.mainWrap>div.main:hover>div.pause{
   width: 100%;
